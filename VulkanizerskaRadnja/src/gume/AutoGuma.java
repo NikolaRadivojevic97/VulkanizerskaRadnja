@@ -100,9 +100,11 @@ public class AutoGuma {
 				", sirina=" + sirina + ", visina=" + visina + "]";
 	}
 	/**
-	 * * Proverava da li su dve gume iste
+	 * Proverava da li su dve gume iste
+	 * poredi dva objekta prema marki i modelu, precniku,visini i sirini gume
 	 * @return true ako su gume iste
 	 * a false u svim ostalim situacijama
+	 * @param objekat klase guma
 	 */
 	@Override
 	public boolean equals(Object obj) {
